@@ -1,0 +1,25 @@
+.blog-homepage-container {
+  padding: 8px 12px 0px 12px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.blog-search .search-input {
+  position: relative;
+  input {
+    width: 26%;
+    min-width: 200px;
+    height: 30px;
+    float: right;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+  }
+}
+.blog-search form img {
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  right: 0px;
+  top: 16px;
+}

@@ -1,0 +1,55 @@
+@import "style/nav-bar.css";
+@import "style/blog-container.css";
+@import "style/blog-homepage-card.css";
+@import "style/article-container.css";
+@import "style/footer.css";
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.blog-homepage-list h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.blog-homepage-container .blockquote {
+  text-align: center; 
+}
+
+.footer-container-homepage {
+  border: 3px solid #111921;
+  background-color: #7F8993;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 750px) {
+  /* For Homepage */
+  .blog-homepage-list-card {
+    justify-content: center;
+  }
+
+  .footer-container-homepage {
+    grid-template-columns: 1fr;
+    padding-top: 20px;
+  }
+
+  .logo {
+    display: flex;
+  }
+
+  .search-input input {
+    width: 95% !important;
+  }
+  .navbar ul {
+    width: 100%;
+  }
+
+  .navbar ul li {
+    padding: 10px !important;
+  }
+}

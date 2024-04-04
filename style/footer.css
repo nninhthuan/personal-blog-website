@@ -1,0 +1,41 @@
+.footer-container-homepage {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px 50px;
+  gap: 14px;
+
+}
+
+.logo-homepage div {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 10px;
+  color: #6D1515;
+}
+.about-me-homepage h1, .social-media-homepage h1 {
+  color: snow;
+}
+.social-media-icons-homepage {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+}
+.social-media-icon-homepage {
+  width: 30px;
+  height: 30px;
+  margin-right: 14px;
+
+  &:nth-child(3) {
+    width: 35px;
+    height: 35px;
+    margin-left: 3px;
+    margin-top: -3px;
+  }
+  &:hover {
+    cursor: pointer;
+    transition: 0.6 ease;
+    transform: scale(1.2);
+  }
+
+}
