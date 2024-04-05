@@ -85,7 +85,10 @@
     border-radius: 10px;
   }
 }
-
+#caption-image {
+  text-align: center;
+  font-style: italic;
+}
 .content .date {
   font-style: italic;
   opacity: 0.8;

@@ -26,6 +26,9 @@
   font-size: 18px;
   text-align: center;
   padding: 20px;
+  a {
+    text-decoration: none;
+  }
   &:hover {
     color: #111921;
     font-weight: 800;

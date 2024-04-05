@@ -1,8 +1,8 @@
-@import "style/nav-bar.css";
-@import "style/blog-container.css";
-@import "style/blog-homepage-card.css";
-@import "style/article-container.css";
-@import "style/footer.css";
+@import "/css/nav-bar.css";
+@import "/css/blog-container.css";
+@import "/css/blog-homepage-card.css";
+@import "/css/article-container.css";
+@import "/css/footer.css";
 body {
   margin: 0;
   height: 100vh;
@@ -13,7 +13,12 @@ body {
   font-size: 20px;
   font-weight: 600;
 }
-
+.caption-image {
+  width: max-content;
+  margin-bottom: 5px;
+  margin-left: 2px;
+  font-style: italic;
+}
 .blog-homepage-container .blockquote {
   text-align: center; 
 }
