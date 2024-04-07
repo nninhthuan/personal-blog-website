@@ -3,7 +3,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 10px 50px;
   gap: 14px;
-
 }
 
 .logo-homepage div {
@@ -26,16 +25,15 @@
   height: 30px;
   margin-right: 14px;
 
-  &:nth-child(3) {
-    width: 35px;
-    height: 35px;
-    margin-left: 3px;
-    margin-top: -3px;
-  }
   &:hover {
     cursor: pointer;
     transition: 0.6 ease;
     transform: scale(1.2);
   }
-
+}
+.social-media-icon-homepage :nth-child(3) {
+  width: 35px;
+  height: 35px;
+  margin-left: 3px;
+  margin-top: -3px;
 }
